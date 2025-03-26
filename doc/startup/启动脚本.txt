@@ -1,0 +1,2 @@
+#windows
+java -jar -Duser.language=en -Duser.country=US xxl-job-admin-3.0.1-SNAPSHOT.jar
