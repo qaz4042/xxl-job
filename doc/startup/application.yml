@@ -1,5 +1,5 @@
 server:
-  port: 28080
+  port: 18080
   servlet:
     context-path: /xxl-job-admin
 
@@ -30,7 +30,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://127.0.0.1:3306/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
     username: root
-    password: developer
+    password: baoyi2025
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       minimum-idle: 10
