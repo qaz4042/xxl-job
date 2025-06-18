@@ -1,4 +1,4 @@
 #linux
-cd /project/baoyi/xxl/
-kill -9 $(ps -ef | grep "/project/baoyi/xxl/xxl-job-admin-3.0.1-SNAPSHOT.jar" | grep -v grep | awk '{print $2}')
-nohup java -jar /project/baoyi/xxl/xxl-job-admin-3.0.1-SNAPSHOT.jar  > /project/baoyi/xxl/xxl.log 2>&1 & disown
+cd /data/project/xxl-job
+kill -9 $(ps -ef | grep "/xxl-job-admin-3.0.1-SNAPSHOT.jar" | grep -v grep | awk '{print $2}')
+nohup java -jar /data/project/xxl-job/xxl-job-admin-3.0.1-SNAPSHOT.jar  > /data/project/xxl-job/xxl.log 2>&1 & disown
